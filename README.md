@@ -10,7 +10,7 @@ Na esperança de uma solução fácil que permita a pesquisa de informações at
 Tobias, com o objetivo de resolver o problema da forma mais simples e eficiente, decidiu utilizar uma representação vetorial para nossos documentos.<br/>
 Mecanismos de pesquisa utilizam diversos tipos de representações de documentos, uma delas é a representação vetorial. Esta representação permite o uso direto de ferramentas matemáticas como distância, similaridade e redução de dimensão. 
 
-Só que surgiu um pequeno problema, devido ao enorme backlog de demandas, Tobias está com falta de disponibilidade para atuar na solução do nosso problema **:(** 
+Só que surgiu um pequeno problema, devido ao enorme backlog de demandas, Tobias está com falta de disponibilidade para atuar na solução do nosso problema **:(** <br/>
 Aí que você entra, jovem entusiasta do saber, pedimos sua ajuda para implementar este grande desafio, para que a busca incessante pelo saber não acabe!
 
 Nosso desafio não se resume a ferramentas matemáticas, mas sim sobre a construção de um índice reverso que acelere os cálculos. Muitas vezes os cálculos necessários são baseados em produto escalar que acabam consumindo muita memória e CPU do computador, tendo um índice reverso simplifica em muito os cálculos.
