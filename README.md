@@ -72,6 +72,6 @@ Você encontrará o conjunto de dados de documentos no diretório *dataset* do r
 
 Você deve usar **Hadoop** ou **Spark** [ou ambos (*pontos a mais)] para estes *Jobs* e a linguagem que preferir (sugestões ordenadas por nossa preferência: Scala, Java, Python)
 
-Em caso de dúvidas, entrar em contato pelo email: **projeto22@projeto22.com.br**
+Em caso de dúvidas, enviar email para: **projeto22@projeto22.com.br**
 
 __Boa Sorte!__
