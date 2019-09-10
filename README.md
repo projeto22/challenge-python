@@ -22,7 +22,7 @@ Nós precisamos que você escreva uma implementação eficiente de um índice re
 
 Nós temos uma coleção de N documentos. Em nosso caso, nós temos 1 arquivo por documento e o nome do arquivo é simplesmente o número do índice do documento como mostrado na figura 1.
  
-(/images/figura_1.png "Figura 1")
+(https://github.com/projeto22/challenge-data-engineer/images/figura_1.png "Figura 1")
 
 2.2 Dicionário
 
