@@ -7,7 +7,8 @@ Aqui na **Projeto22** "conhecimento" é a palavra-chave, disponibilizamos para n
 Queremos aumentar ainda mais a nossa disponibilidade de títulos, mas ultimamente notamos que muitos dos nossos colaboradores relatam a enorme dificuldade de encontrar um documento de um determinado assunto, frente ao enorme acervo que disponibilizamos.<br/> 
 Na esperança de uma solução fácil que permita a pesquisa de informações através de palavras-chave em nossos documentos, consultamos um de nossos maiores especialistas em Engenharia de Dados ...**Tobias "The Guy"!** 
 
-Tobias, com o objetivo de resolver o problema da forma mais simples e eficiente, decidiu utilizar uma representação vetorial para nossos documentos. Mecanismos de pesquisa utilizam diversos tipos de representações de documentos, uma delas é a representação vetorial. Esta representação permite o uso direto de ferramentas matemáticas como distância, similaridade e redução de dimensão. 
+Tobias, com o objetivo de resolver o problema da forma mais simples e eficiente, decidiu utilizar uma representação vetorial para nossos documentos.<br/>
+Mecanismos de pesquisa utilizam diversos tipos de representações de documentos, uma delas é a representação vetorial. Esta representação permite o uso direto de ferramentas matemáticas como distância, similaridade e redução de dimensão. 
 
 Só que surgiu um pequeno problema, devido ao enorme backlog de demandas, Tobias está com falta de disponibilidade para atuar na solução do nosso problema **:(** 
 Aí que você entra, jovem entusiasta do saber, pedimos sua ajuda para implementar este grande desafio, para que a busca incessante pelo saber não acabe!
