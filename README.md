@@ -1,6 +1,6 @@
 # Desafio Engenheiro de Dados
 
-##1 - Contexto 
+## 1 - Contexto 
 
 Aqui na Projeto22 "conhecimento" é a palavra-chave, disponibilizamos para nossos colaboradores um acervo contendo milhares de documentos dos mais diversos assuntos, a fim de contribuir na busca interminável pelo saber. 
 
@@ -17,20 +17,20 @@ Nós precisamos que você escreva uma implementação eficiente de um índice re
 
 
 
-##2 - Algoritmo
-###2.1 Documentos
+## 2 - Algoritmo
+### 2.1 Documentos
 
 Nós temos uma coleção de N documentos. Em nosso caso, nós temos 1 arquivo por documento e o nome do arquivo é simplesmente o número do índice do documento como mostrado na figura 1.
  
 ![alt text](images/figura_1.png "")
 
-###2.2 Dicionário
+### 2.2 Dicionário
 
 Nós queremos um dicionário que realize um “match” de cada palavra contida nos documentos com um identificador único “word_id”, conforme figura 2.
 
 ![alt text](images/figura_2.png "")
 
-###2.2.1 Índice reverso
+### 2.2.1 Índice reverso
 
 Usando ambos o conjunto de dados e dicionário, nós conseguimos construir um índice reverso que dá, para cada palavra, a lista de documentos em que a palavra está contida, veja figura 3.
 
@@ -50,7 +50,7 @@ Veja figura 4, etapas do algoritmo.
 Atenção: o índice deve ser ordenado pelos identificadores das palavras e para cada identificador de palavra, ordenar a sua respectiva lista de identificadores de documentos. 
 Caso seja de interesse, vide “Blocked sort-based indexing”
 
-#3 – Questionamentos
+# 3 – Questionamentos
 Você encontrará o conjunto de dados de documentos no diretório dataset do repositório no GitHub
 
 1 – Implemente um Job para construir o dicionário. Cada linha do arquivo de saída deverá ser a palavra seguida de seu identificador (world_id). Nos documentos contidos no dataset as palavras estão separadas por um ou mais espaços.
