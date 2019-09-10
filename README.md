@@ -49,7 +49,7 @@ Nós queremos uma solução que funcione para um grande conjunto de dados. Nosso
 Estes são os 4 passos do algoritmo:
 
 1. Ler os documentos e recuperar cada par (**wordId**, **documentId**)
-2. Ordenar cada par por worldId e documentId
+2. Ordenar cada par por **worldId** e **documentId**
 3. Para cada **worldId**, agrupar os pares, para ter a lista de documentos que contém a palavra
 4. Mesclar os resultados intermediários para ter o índice reverso final  
 
@@ -59,18 +59,18 @@ Veja figura 4, etapas do algoritmo.
 ![alt text](images/figura_4.png "")
 
 
-**Atenção**: o índice deve ser ordenado pelos identificadores das palavras e para cada identificador de palavra, ordenar a sua respectiva lista de identificadores de documentos. 
+**Atenção**: o índice deve ser ordenado pelos identificadores das palavras e para cada identificador de palavra, ordenar a sua respectiva lista de identificadores de documentos. <br/>
 Caso seja de interesse **“Blocked sort-based indexing”**
 
 
-# 3 – Questionamentos
+# 3 – Informações
 
 Você encontrará o conjunto de dados de documentos no diretório *dataset* do repositório no GitHub.
 
 1. Implemente um *Job* para construir o dicionário. Cada linha do arquivo de saída deverá ser a palavra seguida de seu identificador (**world_id**). Nos documentos armazenados no diretório *dataset* as palavras estão separadas por um ou mais espaços.
 2. Implemente um ou mais *Jobs* para construir o índice reverso
 
-Você deve usar **Hadoop** ou **Spark** [ou ambos (*pontos a mais)] para estes *Jobs* e a linguagem que preferir (sugestões ordenadas por nossa preferência: Scala, Java, Python)
+Você deve usar **Hadoop** ou **Spark** [ou ambos (**pontos a mais**)] para estes *Jobs* e a linguagem que preferir (sugestões ordenadas por nossa preferência: Scala, Java, Python)
 
 Em caso de dúvidas, enviar email para: **projeto22@projeto22.com.br**
 
