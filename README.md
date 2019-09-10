@@ -63,7 +63,7 @@ Veja figura 4, etapas do algoritmo.
 Caso seja de interesse **“Blocked sort-based indexing”**
 
 
-# 3 – Informações
+## 3 – Informações
 
 Você encontrará o conjunto de dados de documentos no diretório *dataset* do repositório no GitHub.
 
