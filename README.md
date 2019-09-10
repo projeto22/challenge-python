@@ -2,7 +2,7 @@
 
 ## 1 - Contexto 
 
-Aqui na Projeto22 "conhecimento" é a palavra-chave, disponibilizamos para nossos colaboradores um acervo contendo milhares de documentos dos mais diversos assuntos, a fim de contribuir na busca interminável pelo saber. 
+Aqui na **Projeto22** "conhecimento" é a palavra-chave, disponibilizamos para nossos colaboradores um acervo contendo milhares de documentos dos mais diversos assuntos, a fim de contribuir na busca interminável pelo saber. 
 
 Queremos aumentar ainda mais a nossa disponibilidade de títulos, mas ultimamente notamos que muitos dos nossos colaboradores relatam a enorme dificuldade de encontrar um documento de um determinado assunto, frente ao enorme acervo que disponibilizamos. Na esperança de uma solução fácil que permita a pesquisa de informações através de palavras-chave em nossos documentos, consultamos um de nossos maiores especialistas em Engenharia de Dados ...Tobias "The Guy"! 
 
@@ -38,10 +38,10 @@ Usando ambos o conjunto de dados e dicionário, nós conseguimos construir um í
   
 Nós queremos uma solução que funcione para um grande conjunto de dados. Nosso algoritmo tem que ser capaz de rodar em um sistema distribuído, de forma que não fiquemos limitados a quantidade de disco, memória e CPU de uma única máquina.
 Estes são os 4 passos do algoritmo:
-•	Ler os documentos e recuperar cada par (wordId, documentId)
-•	Ordenar cada par por worldId e documentId
-•	Para cada worldId, agrupar os pares, para ter a lista de documentos que contém a palavra
-•	Mesclar os resultados intermediários para ter o índice reverso final  
+1. Ler os documentos e recuperar cada par (wordId, documentId)
+2. Ordenar cada par por worldId e documentId
+3. Para cada worldId, agrupar os pares, para ter a lista de documentos que contém a palavra
+4. Mesclar os resultados intermediários para ter o índice reverso final  
 
 Veja figura 4, etapas do algoritmo.
  
@@ -53,8 +53,8 @@ Caso seja de interesse, vide “Blocked sort-based indexing”
 # 3 – Questionamentos
 Você encontrará o conjunto de dados de documentos no diretório dataset do repositório no GitHub
 
-1 – Implemente um Job para construir o dicionário. Cada linha do arquivo de saída deverá ser a palavra seguida de seu identificador (world_id). Nos documentos contidos no dataset as palavras estão separadas por um ou mais espaços.
-2 – Implemente um ou mais Jobs para construir o índice reverso
+1. Implemente um Job para construir o dicionário. Cada linha do arquivo de saída deverá ser a palavra seguida de seu identificador (world_id). Nos documentos contidos no dataset as palavras estão separadas por um ou mais espaços.
+2. Implemente um ou mais Jobs para construir o índice reverso
 
 Você deve usar Hadoop ou Spark [ou ambos (*pontos a mais)] para estes Jobs e a linguagem que preferir (sugestões ordenadas por nossa preferência: Scala, Java, Python)
 
