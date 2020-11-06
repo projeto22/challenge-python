@@ -1,11 +1,11 @@
-# Desafio Engenheiro de Dados
+# Desafio Python
 
 ## 1 - Contexto 
 
 Aqui na **Projeto22** "conhecimento" é a palavra-chave, disponibilizamos para nossos colaboradores um acervo contendo milhares de documentos dos mais diversos assuntos, a fim de contribuir na busca interminável pelo saber. 
 
 Queremos aumentar ainda mais a nossa disponibilidade de títulos, mas ultimamente notamos que muitos dos nossos colaboradores relatam a enorme dificuldade de encontrar um documento de um determinado assunto, frente ao enorme acervo que disponibilizamos.<br/> 
-Na esperança de uma solução fácil que permita a pesquisa de informações através de palavras-chave em nossos documentos, consultamos um de nossos maiores especialistas em Engenharia de Dados ...**Tobias "The Guy"!** 
+Na esperança de uma solução fácil que permita a pesquisa de informações através de palavras-chave em nossos documentos, consultamos um de nossos maiores especialistas em Engenharia de Software ...**Tobias "The Guy"!** 
 
 Tobias, com o objetivo de resolver o problema da forma mais simples e eficiente, decidiu utilizar uma representação vetorial para nossos documentos.<br/>
 Mecanismos de pesquisa utilizam diversos tipos de representações de documentos, uma delas é a representação vetorial. Esta representação permite o uso direto de ferramentas matemáticas como distância, similaridade e redução de dimensão. 
@@ -44,7 +44,7 @@ Usando ambos o conjunto de dados e dicionário, nós conseguimos construir um í
 ![alt text](images/figura_3.png "") 
   
 
-Nós queremos uma solução que funcione para um grande conjunto de dados. Nosso algoritmo tem que ser capaz de rodar em um sistema distribuído, de forma que não fiquemos limitados a quantidade de disco, memória e CPU de uma única máquina.
+Nós queremos uma solução que funcione para um grande conjunto de dados.
 
 Estes são os 4 passos do algoritmo:
 
@@ -70,8 +70,8 @@ Você encontrará o conjunto de dados de documentos no diretório *dataset* do r
 1. Implemente um *Job* para construir o dicionário. Cada linha do arquivo de saída deverá ser a palavra seguida de seu identificador (**world_id**). Nos documentos armazenados no diretório *dataset* as palavras estão separadas por um ou mais espaços.
 2. Implemente um ou mais *Jobs* para construir o índice reverso
 
-Você deve usar **Hadoop** ou **Spark** [ou ambos (**pontos a mais**)] para estes *Jobs* e a linguagem que preferir (sugestões ordenadas por nossa preferência: Scala, Java, Python)
+Você deve usar ou **PySpark ou Python puro** para estes *Jobs*
 
-Em caso de dúvidas, enviar email para: **projeto22@projeto22.com.br**
+Em caso de dúvidas, enviar email para: **rangel.souza@projeto22.com.br**
 
 __Boa Sorte!__
